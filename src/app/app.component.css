@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Outfit',sans-serif;
+}
+
+#root {
+    flex-direction: column;
+    min-height: 1100px;
+    padding-left: 164px;
+    position: relative;
+}
+@media only screen and (max-width: 768px)  {
+    #root {
+        padding-left: 25px;
+    }
+}
+
+#root, body {
+    background: #10141e;
+
+    width: 100%;
+    overflow-x: hidden;
+}
